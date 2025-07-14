@@ -1,0 +1,7 @@
+﻿[build]
+incremental = false
+jobs = 1
+
+[profile.dev]
+opt-level = 0
+codegen-units = 1

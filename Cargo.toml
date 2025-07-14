@@ -1,0 +1,46 @@
+[package]
+name = "scum-discord-bot"
+version = "0.1.0"
+edition = "2021"
+default-run = "scum-discord-bot"  # Add this line here
+
+[dependencies]
+# Discord framework
+serenity = { version = "0.12", features = ["client", "gateway", "rustls_backend", "model", "framework", "standard_framework"] }
+
+# Async runtime
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "sync", "time", "fs"] }
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Database
+rusqlite = { version = "0.31", features = ["bundled"] }
+
+# Environment variables
+dotenv = "0.15"
+
+# Date and time
+chrono = "0.4"
+chrono-tz = "0.8"
+
+# Logging
+log = "0.4"
+env_logger = "0.11"
+
+# Concurrent hashmap
+dashmap = "5.5"
+
+# Windows API for sending commands to game
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.52", features = [
+    "Win32_Foundation",
+    "Win32_UI_WindowsAndMessaging", 
+    "Win32_System_Threading"
+]}
+
+# เพิ่มตรงนี้
+[[bin]]
+name = "test"
+path = "src/test.rs"

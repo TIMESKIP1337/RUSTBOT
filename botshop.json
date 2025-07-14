@@ -1,0 +1,977 @@
+[
+  {
+    "channel": "1379166237287911465",
+    "items": [
+      {
+        "name": "ปืน SCAR-DMR ครบเซ็ต",
+        "price": 6000,
+        "image": ".\\Image\\BotShop\\Rifle\\SCAR-DMR.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:SCAR-DMR,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Weapon_SCAR_DMR 1",
+              "#SpawnItem Magazine_SCAR_DMR 1 AmmoCount 30",
+              "#SpawnItem WeaponScope_Dragunov 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:scar,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Weapon_SCAR_DMR 5",
+              "#SpawnItem Magazine_SCAR_DMR 5 AmmoCount 30",
+              "#SpawnItem WeaponScope_Dragunov 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:scar,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Weapon_SCAR_DMR 10",
+              "#SpawnItem Magazine_SCAR_DMR 10 AmmoCount 30",
+              "#SpawnItem WeaponScope_Dragunov 10"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ปืน ScarL ครบเซ็ต",
+        "price": 5000,
+        "image": ".\\Image\\BotShop\\Rifle\\ScarL.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:ScarL,1",
+            "quantity": 1,
+            "commands": [
+              "#spawnitem Weapon_SCAR_L 1",
+              "#spawnitem Magazine_M16 3 AmmoCount 100",
+              "#spawnitem WeaponSuppressor_MK18 1",
+              "#SpawnItem Waist_Bag_Small_02 1",
+              "#spawnitem WeaponSights_RedDot_CA401B 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:ScarL,5",
+            "quantity": 5,
+            "commands": [
+              "#spawnitem Weapon_SCAR_L 5",
+              "#spawnitem Magazine_M16 5 AmmoCount 100",
+              "#spawnitem WeaponSuppressor_MK18 5",
+              "#spawnitem WeaponSights_RedDot_CA401B 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:ScarL,10",
+            "quantity": 10,
+            "commands": [
+              "#spawnitem Weapon_SCAR_L 10",
+              "#spawnitem Magazine_M16 10 AmmoCount 100",
+              "#spawnitem WeaponSuppressor_MK18 10",
+              "#spawnitem WeaponSights_RedDot_CA401B 10"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ปืน ASval ครบเซ็ต",
+        "price": 4000,
+        "image": ".\\Image\\BotShop\\Rifle\\Asval.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:Asval,1",
+            "quantity": 1,
+            "commands": [
+              "#spawnitem Weapon_AS_Val 1",
+              "#spawnitem Magazine_AS_Val 3 AmmoCount 100",
+              "#spawnitem ScopeRail_AK47 1",
+              "#spawnitem WeaponSights_RedDot_CA401B 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:Asval,5",
+            "quantity": 5,
+            "commands": [
+              "#spawnitem Weapon_AS_Val 5",
+              "#spawnitem Magazine_AS_Val 5 AmmoCount 100",
+              "#spawnitem ScopeRail_AK47 5",
+              "#spawnitem WeaponSights_RedDot_CA401B 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:Asval,10",
+            "quantity": 10,
+            "commands": [
+              "#spawnitem Weapon_AS_Val 10",
+              "#spawnitem Magazine_AS_Val 10 AmmoCount 100",
+              "#spawnitem ScopeRail_AK47 10",
+              "#spawnitem WeaponSights_RedDot_CA401B 10"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ปืน vss ครบเซ็ต",
+        "price": 4000,
+        "image": ".\\Image\\BotShop\\Rifle\\vss.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:vss,1",
+            "quantity": 1,
+            "commands": [
+              "#spawnitem Weapon_VSS_VZ 1",
+              "#spawnitem Magazine_AS_Val 3 AmmoCount 100",
+              "#spawnitem ScopeRail_AK47 1",
+              "#spawnitem WeaponSights_RedDot_CA401B 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:vss,5",
+            "quantity": 5,
+            "commands": [
+              "#spawnitem Weapon_VSS_VZ 5",
+              "#spawnitem Magazine_AS_Val 5 AmmoCount 100",
+              "#spawnitem ScopeRail_AK47 5",
+              "#spawnitem WeaponSights_RedDot_CA401B 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:vss,10",
+            "quantity": 10,
+            "commands": [
+              "#spawnitem Weapon_VSS_VZ 10",
+              "#spawnitem Magazine_AS_Val 10 AmmoCount 100",
+              "#spawnitem ScopeRail_AK47 10",
+              "#spawnitem WeaponSights_RedDot_CA401B 10"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ปืน AKS_74U ครบเซ็ต",
+        "price": 4500,
+        "image": ".\\Image\\BotShop\\Rifle\\AKS_74U.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:AKS_74U,1",
+            "quantity": 1,
+            "commands": [
+              "#spawnitem Weapon_AKS_74U 1",
+              "#spawnitem Magazine_AKS_74U 3 AmmoCount 100",
+              "#spawnitem ScopeRail_AK47 1",
+              "#spawnitem Waist_Bag_Small_02 1",
+              "#Spawnitem WeaponSights_RedDot_CA401B 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:AKS_74U,5",
+            "quantity": 5,
+            "commands": [
+              "#spawnitem Weapon_AKS_74U 5",
+              "#spawnitem Magazine_AKS_74U 15 AmmoCount 100",
+              "#spawnitem ScopeRail_AK47 5",
+              "#spawnitem Waist_Bag_Small_02 5",
+              "#Spawnitem WeaponSights_RedDot_CA401B 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:AKS_74U,10",
+            "quantity": 10,
+            "commands": [
+              "#spawnitem Weapon_AKS_74U 10",
+              "#spawnitem Magazine_AKS_74U 30 AmmoCount 100",
+              "#spawnitem ScopeRail_AK47 10",
+              "#spawnitem Waist_Bag_Small_02 10",
+              "#Spawnitem WeaponSights_RedDot_CA401B 10"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ปืน Uzi ครบเซ็ต",
+        "price": 3500,
+        "image": ".\\Image\\BotShop\\Rifle\\UZI.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:uzi,1",
+            "quantity": 1,
+            "commands": [
+              "#Spawnitem Weapon_MAC10 1",
+              "#Spawnitem Magazine_MAC10 3 AmmoCount 100",
+              "#Spawnitem ImprovisedRail_Short 1",
+              "#SpawnItem Waist_Bag_Small_02 1",
+              "#Spawnitem WeaponSights_MRO_Red_Dot 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:uzi,5",
+            "quantity": 5,
+            "commands": [
+              "#Spawnitem Weapon_MAC10 5",
+              "#Spawnitem Magazine_MAC10 5 AmmoCount 100",
+              "#Spawnitem Magazine_MAC10 10 AmmoCount 100",
+              "#Spawnitem ImprovisedRail_Short 5",
+              "#Spawnitem WeaponSights_MRO_Red_Dot 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:uzi,10",
+            "quantity": 10,
+            "commands": [
+              "#Spawnitem Weapon_MAC10 10",
+              "#Spawnitem Magazine_MAC10 10 AmmoCount 100",
+              "#Spawnitem Magazine_MAC10 10 AmmoCount 100",
+              "#Spawnitem ImprovisedRail_Short 10",
+              "#Spawnitem WeaponSights_MRO_Red_Dot 10"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ปืน AK15 ครบเซ็ต",
+        "price": 4500,
+        "image": ".\\Image\\BotShop\\Rifle\\AK15.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:ak15,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Weapon_AK15 1",
+              "#SpawnItem Magazine_AK15 3 AmmoCount 30",
+              "#SpawnItem Waist_Bag_Small_02 1",
+              "#SpawnItem WeaponSights_RedDot_CA401B 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:ak15,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Weapon_AK15 5",
+              "#SpawnItem Magazine_AK15 5 AmmoCount 30",
+              "#SpawnItem WeaponSights_RedDot_CA401B 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:ak15,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Weapon_AK15 10",
+              "#SpawnItem Magazine_AK15 10 AmmoCount 30",
+              "#SpawnItem WeaponSights_RedDot_CA401B 10"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ปืน mk18 ครบเซ็ต",
+        "price": 4500,
+        "image": ".\\Image\\BotShop\\Rifle\\mk18.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:mk18,1",
+            "quantity": 1,
+            "commands": [
+              "#spawnitem Weapon_MK18 1",
+              "#SpawnItem Magazine_M16 3 AmmoCount 30",
+              "#spawnitem WeaponSuppressor_MK18 1",
+              "#SpawnItem Waist_Bag_Small_02 1",
+              "#SpawnItem WeaponScope_ACOG_01 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:m16,5",
+            "quantity": 5,
+            "commands": [
+              "#spawnitem Weapon_MK18 5",
+              "#spawnitem WeaponSuppressor_MK18 5",
+              "#SpawnItem Magazine_M16 5 AmmoCount 30",
+              "#SpawnItem WeaponScope_ACOG_01 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:m16,10",
+            "quantity": 10,
+            "commands": [
+              "#spawnitem Weapon_MK18 10",
+              "#spawnitem WeaponSuppressor_MK18 10",
+              "#SpawnItem Magazine_M16 10 AmmoCount 30",
+              "#SpawnItem WeaponScope_ACOG_01 10"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ปืน M16A4 ครบเซ็ต",
+        "price": 4500,
+        "image": ".\\Image\\BotShop\\Rifle\\M16.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:m16,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Weapon_M16A4 1",
+              "#SpawnItem Magazine_M16 3 AmmoCount 30",
+              "#SpawnItem Waist_Bag_Small_02 1",
+              "#SpawnItem WeaponScope_ACOG_01 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:m16,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Weapon_M16A4 5",
+              "#SpawnItem Magazine_M16 5 AmmoCount 30",
+              "#SpawnItem WeaponScope_ACOG_01 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:m16,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Weapon_M16A4 10",
+              "#SpawnItem Magazine_M16 10 AmmoCount 30",
+              "#SpawnItem WeaponScope_ACOG_01 10"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ปืน AK-47 ครบเซ็ต",
+        "price": 5000,
+        "image": ".\\Image\\BotShop\\Rifle\\AK-47.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:ak47,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Weapon_AK47 1",
+              "#SpawnItem Magazine_RPK 1 AmmoCount 75",
+              "#SpawnItem ScopeRail_AK47 1",
+              "#SpawnItem WeaponScope_Dragunov 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:ak47,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Weapon_AK47 5",
+              "#SpawnItem Magazine_RPK 5 AmmoCount 75",
+              "#SpawnItem ScopeRail_AK47 5",
+              "#SpawnItem WeaponScope_Dragunov 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:ak47,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Weapon_AK47 10",
+              "#SpawnItem Magazine_RPK 10 AmmoCount 75",
+              "#SpawnItem ScopeRail_AK47 10",
+              "#SpawnItem WeaponScope_Dragunov 10"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ปืน AKM ครบเซ็ต",
+        "price": 5000,
+        "image": ".\\Image\\BotShop\\Rifle\\AKM.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:akm,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Weapon_AKM 1",
+              "#SpawnItem Magazine_RPK 1 AmmoCount 75",
+              "#SpawnItem ScopeRail_AK47 1",
+              "#SpawnItem WeaponScope_Spektral_DR 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:akm,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Weapon_AKM 5",
+              "#SpawnItem Magazine_RPK 5 AmmoCount 75",
+              "#SpawnItem ScopeRail_AK47 5",
+              "#SpawnItem WeaponScope_Spektral_DR 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:akm,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Weapon_AKM 10",
+              "#SpawnItem Magazine_RPK 10 AmmoCount 75",
+              "#SpawnItem ScopeRail_AK47 10",
+              "#SpawnItem WeaponScope_Spektral_DR 10"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ปืน RPK ครบเซ็ต",
+        "price": 5000,
+        "image": ".\\Image\\BotShop\\Rifle\\RPK.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:RPK,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Weapon_RPK-74 1",
+              "#SpawnItem Magazine_RPK 1 AmmoCount 75",
+              "#SpawnItem ScopeRail_AK47 1",
+              "#SpawnItem WeaponScope_Dragunov 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:RPK,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Weapon_RPK-74 5",
+              "#SpawnItem Magazine_RPK 5 AmmoCount 75",
+              "#SpawnItem ScopeRail_AK47 5",
+              "#SpawnItem WeaponScope_Dragunov 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:RPK,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Weapon_RPK-74 10",
+              "#SpawnItem Magazine_RPK 10 AmmoCount 75",
+              "#SpawnItem ScopeRail_AK47 10",
+              "#SpawnItem WeaponScope_Dragunov 10"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ปืน M249 ครบเซ็ต",
+        "price": 5500,
+        "image": ".\\Image\\BotShop\\Rifle\\M249.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:m249,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Weapon_M249 1",
+              "#SpawnItem Magazine_M249 1 AmmoCount 100",
+              "#SpawnItem WeaponSights_RedDot_CA401B 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:m249,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Weapon_M249 5",
+              "#SpawnItem Magazine_M249 5 AmmoCount 100",
+              "#SpawnItem WeaponSights_RedDot_CA401B 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:m249,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Weapon_M249 10",
+              "#SpawnItem Magazine_M249 10 AmmoCount 100",
+              "#SpawnItem WeaponSights_RedDot_CA401B 10"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ปืน M1 Garand ครบเซ็ต",
+        "price": 8500,
+        "image": ".\\Image\\BotShop\\Rifle\\M1_Rifle.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:m1,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Weapon_M1_Garand 1",
+              "#SpawnItem M1_Clip 3 AmmoCount 10",
+              "#SpawnItem ImprovisedRail_Side 1",
+              "#SpawnItem WeaponScope_Dragunov 1",
+              "#SpawnItem WeaponSuppressor_M1 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:m1,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Weapon_M1_Garand 5",
+              "#SpawnItem M1_Clip 10 AmmoCount 10",
+              "#SpawnItem M1_Clip 5 AmmoCount 10",
+              "#SpawnItem ImprovisedRail_Side 5",
+              "#SpawnItem WeaponScope_Dragunov 5",
+              "#SpawnItem WeaponSuppressor_M1 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:m1,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Weapon_M1_Garand 10",
+              "#SpawnItem M1_Clip 10 AmmoCount 10",
+              "#SpawnItem M1_Clip 10 AmmoCount 10",
+              "#SpawnItem M1_Clip 10 AmmoCount 10",
+              "#SpawnItem ImprovisedRail_Side 10",
+              "#SpawnItem WeaponScope_Dragunov 10",
+              "#SpawnItem WeaponSuppressor_M1"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ปืน M82A1 ครบเซ็ต",
+        "price": 15000,
+        "image": ".\\Image\\BotShop\\Rifle\\M82A1.png",
+        "buttons": [
+          {
+            "text": "BUY 1 SET",
+            "trigger": "botshop:m82a1,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Weapon_M82A1 1",
+              "#SpawnItem Magazine_M82A1 5 AmmoCount 10",
+              "#spawnitem Military_Quiver_02 1",
+              "#SpawnItem WeaponScope_M82A1 1",
+              "#SpawnItem WeaponSuppressor_M82A1 1"
+            ]
+          },
+          {
+            "text": "BUY 5 SET",
+            "trigger": "botshop:m82a1,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Weapon_M82A1 5",
+              "#SpawnItem Magazine_M82A1 10 AmmoCount 10",
+              "#SpawnItem Magazine_M82A1 10 AmmoCount 10",
+              "#SpawnItem WeaponScope_M82A1 5",
+              "#SpawnItem WeaponSuppressor_M82A1 5"
+            ]
+          },
+          {
+            "text": "BUY 10 SET",
+            "trigger": "botshop:m82a1,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Weapon_M82A1 10",
+              "#SpawnItem Magazine_M82A1 10 AmmoCount 10",
+              "#SpawnItem Magazine_M82A1 10 AmmoCount 10",
+              "#SpawnItem Magazine_M82A1 10 AmmoCount 10",
+              "#SpawnItem WeaponScope_M82A1 10",
+              "#SpawnItem WeaponSuppressor_M82A1 10"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "channel": "1379166761277980826",
+    "items": [
+      {
+        "name": "แม็กกาซีน M16/MK18",
+        "price": 1200,
+        "image": ".\\Image\\BotShop\\Magazine\\M16_Magazine.png",
+        "buttons": [
+          {
+            "text": "BUY 1",
+            "trigger": "botshop:Magazine_M16,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Magazine_M16 1 AmmoCount 30"
+            ]
+          },
+          {
+            "text": "BUY 5",
+            "trigger": "botshop:Magazine_M16,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Magazine_M16 5 AmmoCount 30"
+            ]
+          },
+          {
+            "text": "BUY 10",
+            "trigger": "botshop:Magazine_M16,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Magazine_M16 10 AmmoCount 30"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "แม็กกาซีน Uzi",
+        "price": 800,
+        "image": ".\\Image\\BotShop\\Magazine\\MagUzi.png",
+        "buttons": [
+          {
+            "text": "BUY 1",
+            "trigger": "botshop:maguzi,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Magazine_MAC10 1 AmmoCount 100"
+            ]
+          },
+          {
+            "text": "BUY 5",
+            "trigger": "botshop:maguzi,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Magazine_MAC10 5 AmmoCount 100"
+            ]
+          },
+          {
+            "text": "BUY 10",
+            "trigger": "botshop:maguzi,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Magazine_MAC10 10 AmmoCount 100"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "M1 Clip",
+        "price": 1500,
+        "image": ".\\Image\\BotShop\\Magazine\\M1_Clip.png",
+        "buttons": [
+          {
+            "text": "BUY 1",
+            "trigger": "botshop:Magazine_M1,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem M1_Clip 1 AmmoCount 10"
+            ]
+          },
+          {
+            "text": "BUY 5",
+            "trigger": "botshop:Magazine_M1,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem M1_Clip 5 AmmoCount 10"
+            ]
+          },
+          {
+            "text": "BUY 10",
+            "trigger": "botshop:Magazine_M1,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem M1_Clip 10 AmmoCount 10"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "แม็กกาซีน RPK",
+        "price": 2000,
+        "image": ".\\Image\\BotShop\\Magazine\\RPK_Magazine.png",
+        "buttons": [
+          {
+            "text": "BUY 1",
+            "trigger": "botshop:Magazine_RPK,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Magazine_RPK 1 AmmoCount 75"
+            ]
+          },
+          {
+            "text": "BUY 5",
+            "trigger": "botshop:Magazine_RPK,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Magazine_RPK 5 AmmoCount 75"
+            ]
+          },
+          {
+            "text": "BUY 10",
+            "trigger": "botshop:Magazine_RPK,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Magazine_RPK 10 AmmoCount 75"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "แม็กกาซีน M249",
+        "price": 2000,
+        "image": ".\\Image\\BotShop\\Magazine\\M249_Ammobox.png",
+        "buttons": [
+          {
+            "text": "BUY 1",
+            "trigger": "botshop:Magazine_M249,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Magazine_M249 1 AmmoCount 100"
+            ]
+          },
+          {
+            "text": "BUY 5",
+            "trigger": "botshop:Magazine_M249,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Magazine_M249 5 AmmoCount 100"
+            ]
+          },
+          {
+            "text": "BUY 10",
+            "trigger": "botshop:Magazine_M249,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Magazine_M249 10 AmmoCount 100"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "แม็กกาซีน SCAR",
+        "price": 1200,
+        "image": ".\\Image\\BotShop\\Magazine\\SCAR_Magazine.png",
+        "buttons": [
+          {
+            "text": "BUY 1",
+            "trigger": "botshop:Magazine_SCAR_DMR,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Magazine_SCAR_DMR 1 AmmoCount 30"
+            ]
+          },
+          {
+            "text": "BUY 5",
+            "trigger": "botshop:Magazine_SCAR_DMR,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Magazine_SCAR_DMR 5 AmmoCount 30"
+            ]
+          },
+          {
+            "text": "BUY 10",
+            "trigger": "botshop:Magazine_SCAR_DMR,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Magazine_SCAR_DMR 10 AmmoCount 30"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "แม็กกาซีน M82A1",
+        "price": 2000,
+        "image": ".\\Image\\BotShop\\Magazine\\M82_Magazine.png",
+        "buttons": [
+          {
+            "text": "BUY 1",
+            "trigger": "botshop:Magazine_M82A1,1",
+            "quantity": 1,
+            "commands": [
+              "#SpawnItem Magazine_M82A1 1 AmmoCount 10"
+            ]
+          },
+          {
+            "text": "BUY 5",
+            "trigger": "botshop:Magazine_M82A1,5",
+            "quantity": 5,
+            "commands": [
+              "#SpawnItem Magazine_M82A1 5 AmmoCount 10"
+            ]
+          },
+          {
+            "text": "BUY 10",
+            "trigger": "botshop:Magazine_M82A1,10",
+            "quantity": 10,
+            "commands": [
+              "#SpawnItem Magazine_M82A1 10 AmmoCount 10"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "channel": "1381383699320537209",
+    "items": [
+      {
+        "name": "เพิ่ม Gold 100",
+        "price": 500,
+        "image": ".\\Image\\BotShop\\Currency\\gold100.png",
+        "buttons": [
+          {
+            "text": "BUY GOLD 100",
+            "trigger": "botshop:gold100,1",
+            "quantity": 1,
+            "commands": [
+              "#ChangeCurrencyBalance Gold 100 {steam_id}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "เพิ่ม Gold 500",
+        "price": 2000,
+        "image": ".\\Image\\BotShop\\Currency\\gold500.png",
+        "buttons": [
+          {
+            "text": "BUY GOLD 500",
+            "trigger": "botshop:gold500,1",
+            "quantity": 1,
+            "commands": [
+              "#ChangeCurrencyBalance Gold 500 {steam_id}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "เพิ่ม Gold 1000",
+        "price": 3500,
+        "image": ".\\Image\\BotShop\\Currency\\gold1000.png",
+        "buttons": [
+          {
+            "text": "BUY GOLD 1000",
+            "trigger": "botshop:gold1000,1",
+            "quantity": 1,
+            "commands": [
+              "#ChangeCurrencyBalance Gold 1000 {steam_id}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "เพิ่ม Gold 2500",
+        "price": 8000,
+        "image": ".\\Image\\BotShop\\Currency\\gold2500.png",
+        "buttons": [
+          {
+            "text": "BUY GOLD 2500",
+            "trigger": "botshop:gold2500,1",
+            "quantity": 1,
+            "commands": [
+              "#ChangeCurrencyBalance Gold 2500 {steam_id}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "เพิ่ม Gold 5000",
+        "price": 15000,
+        "image": ".\\Image\\BotShop\\Currency\\gold5000.png",
+        "buttons": [
+          {
+            "text": "BUY GOLD 5000",
+            "trigger": "botshop:gold5000,1",
+            "quantity": 1,
+            "commands": [
+              "#ChangeCurrencyBalance Gold 5000 {steam_id}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "เพิ่ม Fame Points 50",
+        "price": 1000,
+        "image": ".\\Image\\BotShop\\Currency\\fame50.png",
+        "buttons": [
+          {
+            "text": "BUY FAME 50",
+            "trigger": "botshop:fame50,1",
+            "quantity": 1,
+            "commands": [
+              "#ChangeFamePoints 50 {steam_id}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "เพิ่ม Fame Points 100",
+        "price": 1800,
+        "image": ".\\Image\\BotShop\\Currency\\fame100.png",
+        "buttons": [
+          {
+            "text": "BUY FAME 100",
+            "trigger": "botshop:fame100,1",
+            "quantity": 1,
+            "commands": [
+              "#ChangeFamePoints 100 {steam_id}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "เพิ่ม Fame Points 250",
+        "price": 4000,
+        "image": ".\\Image\\BotShop\\Currency\\fame250.png",
+        "buttons": [
+          {
+            "text": "BUY FAME 250",
+            "trigger": "botshop:fame250,1",
+            "quantity": 1,
+            "commands": [
+              "#ChangeFamePoints 250 {steam_id}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "เพิ่ม Fame Points 500",
+        "price": 7500,
+        "image": ".\\Image\\BotShop\\Currency\\fame500.png",
+        "buttons": [
+          {
+            "text": "BUY FAME 500",
+            "trigger": "botshop:fame500,1",
+            "quantity": 1,
+            "commands": [
+              "#ChangeFamePoints 500 {steam_id}"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
